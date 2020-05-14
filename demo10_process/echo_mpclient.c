@@ -79,7 +79,6 @@ void read_routine(int sock, char *buf)
 			return;
 		}
 			
-
 		buf[str_len] = 0;
 		printf("Message From server: %s", buf);
 	}
